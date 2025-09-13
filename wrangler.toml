@@ -3,7 +3,7 @@ main = "_worker.js"
 compatibility_date = "2023-10-01"  # Актуальная дата для совместимости
 
 [vars]
-UUID = "667cfac3-b9ea-413a-adee-3d8599bc1d3a"\n" 
+UUID = "667cfac3-b9ea-413a-adee-3d8599bc1d3a"
 # Для нескольких UUID: UUID = "uuid1,uuid2,uuid3" (через запятую, без пробелов)
 # Опционально: ProxyIP для маршрутизации через прокси (IP или домен, чтобы избежать блокировок Cloudflare IP)
 PROXYIP = ""  # Оставьте пустым, если не нужно. Пример: "1.1.1.1" или "proxy.example.com"
