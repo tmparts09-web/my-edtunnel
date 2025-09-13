@@ -11,4 +11,4 @@ PROXYIP = ""  # Оставьте пустым, если не нужно. При�
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea,89b64978-6244-4bf3-bf64-67ade4ce5c8f,667cfac3-b9ea-413a-adee-3d8599bc1d3a"
+UUID = "667cfac3-b9ea-413a-adee-3d8599bc1d3a"
