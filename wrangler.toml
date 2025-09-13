@@ -1,13 +1,12 @@
-name = "cf-worker-ws-dev" # todo
-#name = "cf-worker-connect-test" # todo
-#main = "test/worker/cf-cdn-cgi-trace2.js"
-#main = "test/worker/worker-connect-test.js"
+name = "ed-tunnel-worker"  # Имя вашего Worker
 main = "_worker.js"
-compatibility_date = "2023-05-26"
+compatibility_date = "2023-10-01"  # Актуальная дата для совместимости
 
 [vars]
-# UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
-# PROXYIP = "1.2.3.4"
+UUID = "your-uuid-here"  # Замените на ваш UUID, например: "43aad578-2139-4983-b4eb-94680042b8f7"
+# Для нескольких UUID: UUID = "uuid1,uuid2,uuid3" (через запятую, без пробелов)
+# Опционально: ProxyIP для маршрутизации через прокси (IP или домен, чтобы избежать блокировок Cloudflare IP)
+PROXYIP = ""  # Оставьте пустым, если не нужно. Пример: "1.1.1.1" или "proxy.example.com"
 # DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
